@@ -39,6 +39,7 @@ __exists portmaster && alias portmaster="portmaster -m'-DNO_DEPENDS'";
 __exists urxvt && alias urxvt="urxvtcd"
 __exists python3.2 && ! __exists python3 && alias python3=python3.2
 __exists proxychains && alias pc="proxychains";
+__exists python && alias shareThisDir="python -m http.server 8000";
 __exists python2 && alias shareThisDir="python2 -m SimpleHTTPServer";
 __exists python3 && alias shareThisDir="python3 -m http.server 8000";
 alias lls="ls -lao";
